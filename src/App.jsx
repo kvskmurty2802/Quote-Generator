@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-800 to-gray-900 text-white flex flex-col items-center justify-center py-4">
-      <h1 className="text-4xl font-bold mb-6">Random Ron Swanson Quotes</h1>
+      <h1 className="text-4xl font-bold mb-6 pl-4">Random Ron Swanson Quotes</h1>
       <QuoteCard quote={quote} fetchQuote={fetchQuote} saveQuote={saveQuote} />
       {savedQuotes.length > 0 && <SavedQuotesList quotes={savedQuotes} deleteQuote={deleteQuote} />}
     </div>
